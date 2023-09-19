@@ -1,0 +1,185 @@
+name: KTX
+number: 37
+cars:
+- chairs:
+  - is_reservated: true
+    is_used: true
+    name: 1A
+  - is_reservated: false
+    is_used: false
+    name: 1B
+  - is_reservated: false
+    is_used: true
+    name: 1C
+  - is_reservated: false
+    is_used: true
+    name: 1D
+  - is_reservated: false
+    is_used: false
+    name: 2A
+  - is_reservated: false
+    is_used: false
+    name: 2B
+  - is_reservated: true
+    is_used: false
+    name: 2C
+  - is_reservated: false
+    is_used: false
+    name: 2D
+  - is_reservated: false
+    is_used: false
+    name: 3A
+  - is_reservated: true
+    is_used: true
+    name: 3B
+  - is_reservated: true
+    is_used: false
+    name: 3C
+  - is_reservated: true
+    is_used: false
+    name: 3D
+  - is_reservated: true
+    is_used: false
+    name: 4A
+  - is_reservated: true
+    is_used: true
+    name: 4B
+  - is_reservated: true
+    is_used: true
+    name: 4C
+  - is_reservated: false
+    is_used: true
+    name: 4D
+  - is_reservated: false
+    is_used: true
+    name: 5A
+  - is_reservated: true
+    is_used: true
+    name: 5B
+  - is_reservated: true
+    is_used: false
+    name: 5C
+  - is_reservated: true
+    is_used: true
+    name: 5D
+  - is_reservated: true
+    is_used: true
+    name: 6A
+  - is_reservated: false
+    is_used: true
+    name: 6B
+  - is_reservated: true
+    is_used: false
+    name: 6C
+  - is_reservated: true
+    is_used: false
+    name: 6D
+  - is_reservated: true
+    is_used: false
+    name: 7A
+  - is_reservated: true
+    is_used: false
+    name: 7B
+  - is_reservated: true
+    is_used: false
+    name: 7C
+  - is_reservated: false
+    is_used: false
+    name: 7D
+  - is_reservated: true
+    is_used: false
+    name: 8A
+  - is_reservated: false
+    is_used: false
+    name: 8B
+  - is_reservated: false
+    is_used: false
+    name: 8C
+  - is_reservated: true
+    is_used: true
+    name: 8D
+  - is_reservated: false
+    is_used: false
+    name: 9A
+  - is_reservated: true
+    is_used: false
+    name: 9B
+  - is_reservated: false
+    is_used: true
+    name: 9C
+  - is_reservated: true
+    is_used: true
+    name: 9D
+  - is_reservated: false
+    is_used: true
+    name: 10A
+  - is_reservated: true
+    is_used: false
+    name: 10B
+  - is_reservated: true
+    is_used: true
+    name: 10C
+  - is_reservated: false
+    is_used: false
+    name: 10D
+  - is_reservated: false
+    is_used: false
+    name: 11A
+  - is_reservated: false
+    is_used: false
+    name: 11B
+  - is_reservated: true
+    is_used: true
+    name: 11C
+  - is_reservated: true
+    is_used: false
+    name: 11D
+  - is_reservated: true
+    is_used: true
+    name: 12A
+  - is_reservated: true
+    is_used: false
+    name: 12B
+  - is_reservated: false
+    is_used: false
+    name: 12C
+  - is_reservated: false
+    is_used: true
+    name: 12D
+  - is_reservated: true
+    is_used: true
+    name: 13A
+  - is_reservated: false
+    is_used: false
+    name: 13B
+  - is_reservated: false
+    is_used: false
+    name: 13C
+  - is_reservated: true
+    is_used: false
+    name: 13D
+  - is_reservated: false
+    is_used: true
+    name: 14A
+  - is_reservated: true
+    is_used: false
+    name: 14B
+  - is_reservated: false
+    is_used: false
+    name: 14C
+  - is_reservated: false
+    is_used: true
+    name: 14D
+  - is_reservated: false
+    is_used: true
+    name: 15A
+  - is_reservated: true
+    is_used: true
+    name: 15B
+  - is_reservated: true
+    is_used: true
+    name: 15C
+  - is_reservated: false
+    is_used: true
+    name: 15D
+  number: 9

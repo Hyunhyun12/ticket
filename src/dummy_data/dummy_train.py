@@ -8,17 +8,17 @@ from src.models.train import Train
 
 class DummyTrain:
     def __init__(self) -> None:
-        self.dummy_train = self.get_dummy_train()
+        self.random = self.get_random_train()
 
-    def get_dummy_train(self) -> Train:
-        cars = self.get_dummy_cars()
+    def get_random_train(self) -> Train:
+        cars = self.get_random_cars()
         return Train(
             name="KTX",
             number=37,
             cars=cars,
         )
 
-    def get_dummy_cars(self) -> List[Car]:
+    def get_random_cars(self) -> List[Car]:
         chairs = self.get_random_chair()
         return [
             Car(
