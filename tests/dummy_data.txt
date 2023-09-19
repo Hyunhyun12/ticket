@@ -1,309 +1,74 @@
-Train
-  name=KTX
-  number=37
-  cars=[
-    Car
-    number=9
-    chairs=[
-        Chair
-        name=1A
-        is_reservated=True
-        is_used=False
-        , 
-        Chair
-        name=1B
-        is_reservated=False
-        is_used=True
-        , 
-        Chair
-        name=1C
-        is_reservated=True
-        is_used=False
-        , 
-        Chair
-        name=1D
-        is_reservated=True
-        is_used=True
-        , 
-        Chair
-        name=2A
-        is_reservated=False
-        is_used=False
-        , 
-        Chair
-        name=2B
-        is_reservated=False
-        is_used=True
-        , 
-        Chair
-        name=2C
-        is_reservated=True
-        is_used=False
-        , 
-        Chair
-        name=2D
-        is_reservated=False
-        is_used=True
-        , 
-        Chair
-        name=3A
-        is_reservated=True
-        is_used=False
-        , 
-        Chair
-        name=3B
-        is_reservated=True
-        is_used=False
-        , 
-        Chair
-        name=3C
-        is_reservated=True
-        is_used=False
-        , 
-        Chair
-        name=3D
-        is_reservated=True
-        is_used=True
-        , 
-        Chair
-        name=4A
-        is_reservated=False
-        is_used=True
-        , 
-        Chair
-        name=4B
-        is_reservated=True
-        is_used=False
-        , 
-        Chair
-        name=4C
-        is_reservated=False
-        is_used=False
-        , 
-        Chair
-        name=4D
-        is_reservated=False
-        is_used=False
-        , 
-        Chair
-        name=5A
-        is_reservated=False
-        is_used=False
-        , 
-        Chair
-        name=5B
-        is_reservated=True
-        is_used=True
-        , 
-        Chair
-        name=5C
-        is_reservated=True
-        is_used=False
-        , 
-        Chair
-        name=5D
-        is_reservated=False
-        is_used=False
-        , 
-        Chair
-        name=6A
-        is_reservated=True
-        is_used=False
-        , 
-        Chair
-        name=6B
-        is_reservated=True
-        is_used=False
-        , 
-        Chair
-        name=6C
-        is_reservated=True
-        is_used=False
-        , 
-        Chair
-        name=6D
-        is_reservated=True
-        is_used=True
-        , 
-        Chair
-        name=7A
-        is_reservated=False
-        is_used=False
-        , 
-        Chair
-        name=7B
-        is_reservated=True
-        is_used=False
-        , 
-        Chair
-        name=7C
-        is_reservated=False
-        is_used=False
-        , 
-        Chair
-        name=7D
-        is_reservated=True
-        is_used=True
-        , 
-        Chair
-        name=8A
-        is_reservated=True
-        is_used=False
-        , 
-        Chair
-        name=8B
-        is_reservated=True
-        is_used=False
-        , 
-        Chair
-        name=8C
-        is_reservated=True
-        is_used=False
-        , 
-        Chair
-        name=8D
-        is_reservated=True
-        is_used=True
-        , 
-        Chair
-        name=9A
-        is_reservated=False
-        is_used=False
-        , 
-        Chair
-        name=9B
-        is_reservated=False
-        is_used=True
-        , 
-        Chair
-        name=9C
-        is_reservated=True
-        is_used=False
-        , 
-        Chair
-        name=9D
-        is_reservated=False
-        is_used=True
-        , 
-        Chair
-        name=10A
-        is_reservated=False
-        is_used=False
-        , 
-        Chair
-        name=10B
-        is_reservated=True
-        is_used=True
-        , 
-        Chair
-        name=10C
-        is_reservated=False
-        is_used=True
-        , 
-        Chair
-        name=10D
-        is_reservated=True
-        is_used=False
-        , 
-        Chair
-        name=11A
-        is_reservated=False
-        is_used=False
-        , 
-        Chair
-        name=11B
-        is_reservated=False
-        is_used=False
-        , 
-        Chair
-        name=11C
-        is_reservated=True
-        is_used=True
-        , 
-        Chair
-        name=11D
-        is_reservated=True
-        is_used=False
-        , 
-        Chair
-        name=12A
-        is_reservated=True
-        is_used=True
-        , 
-        Chair
-        name=12B
-        is_reservated=False
-        is_used=False
-        , 
-        Chair
-        name=12C
-        is_reservated=True
-        is_used=False
-        , 
-        Chair
-        name=12D
-        is_reservated=False
-        is_used=False
-        , 
-        Chair
-        name=13A
-        is_reservated=False
-        is_used=True
-        , 
-        Chair
-        name=13B
-        is_reservated=True
-        is_used=False
-        , 
-        Chair
-        name=13C
-        is_reservated=False
-        is_used=True
-        , 
-        Chair
-        name=13D
-        is_reservated=True
-        is_used=False
-        , 
-        Chair
-        name=14A
-        is_reservated=False
-        is_used=True
-        , 
-        Chair
-        name=14B
-        is_reservated=False
-        is_used=False
-        , 
-        Chair
-        name=14C
-        is_reservated=False
-        is_used=False
-        , 
-        Chair
-        name=14D
-        is_reservated=True
-        is_used=False
-        , 
-        Chair
-        name=15A
-        is_reservated=True
-        is_used=False
-        , 
-        Chair
-        name=15B
-        is_reservated=True
-        is_used=False
-        , 
-        Chair
-        name=15C
-        is_reservated=True
-        is_used=False
-        , 
-        Chair
-        name=15D
-        is_reservated=False
-        is_used=False
-        ]
-        ]
-
+{
+    'name': 'KTX',
+    'number': 37,
+    'cars':
+        [
+            {
+                'number': 9,
+                'chairs':
+                [
+                    {'is_reservated': True, 'is_used': True, 'name': '1A'},
+                    {'is_reservated': False, 'is_used': False, 'name': '1B'},
+                    {'is_reservated': False, 'is_used': True, 'name': '1C'},
+                    {'is_reservated': False, 'is_used': True, 'name': '1D'},
+                    {'is_reservated': False, 'is_used': False, 'name': '2A'},
+                    {'is_reservated': False, 'is_used': False, 'name': '2B'},
+                    {'is_reservated': True, 'is_used': False, 'name': '2C'},
+                    {'is_reservated': False, 'is_used': False, 'name': '2D'},
+                    {'is_reservated': False, 'is_used': False, 'name': '3A'},
+                    {'is_reservated': True, 'is_used': True, 'name': '3B'},
+                    {'is_reservated': True, 'is_used': False, 'name': '3C'},
+                    {'is_reservated': True, 'is_used': False, 'name': '3D'},
+                    {'is_reservated': True, 'is_used': False, 'name': '4A'},
+                    {'is_reservated': True, 'is_used': True, 'name': '4B'},
+                    {'is_reservated': True, 'is_used': True, 'name': '4C'},
+                    {'is_reservated': False, 'is_used': True, 'name': '4D'},
+                    {'is_reservated': False, 'is_used': True, 'name': '5A'},
+                    {'is_reservated': True, 'is_used': True, 'name': '5B'},
+                    {'is_reservated': True, 'is_used': False, 'name': '5C'},
+                    {'is_reservated': True, 'is_used': True, 'name': '5D'},
+                    {'is_reservated': True, 'is_used': True, 'name': '6A'},
+                    {'is_reservated': False, 'is_used': True, 'name': '6B'},
+                    {'is_reservated': True, 'is_used': False, 'name': '6C'},
+                    {'is_reservated': True, 'is_used': False, 'name': '6D'},
+                    {'is_reservated': True, 'is_used': False, 'name': '7A'},
+                    {'is_reservated': True, 'is_used': False, 'name': '7B'},
+                    {'is_reservated': True, 'is_used': False, 'name': '7C'},
+                    {'is_reservated': False, 'is_used': False, 'name': '7D'},
+                    {'is_reservated': True, 'is_used': False, 'name': '8A'},
+                    {'is_reservated': False, 'is_used': False, 'name': '8B'},
+                    {'is_reservated': False, 'is_used': False, 'name': '8C'},
+                    {'is_reservated': True, 'is_used': True, 'name': '8D'},
+                    {'is_reservated': False, 'is_used': False, 'name': '9A'},
+                    {'is_reservated': True, 'is_used': False, 'name': '9B'},
+                    {'is_reservated': False, 'is_used': True, 'name': '9C'},
+                    {'is_reservated': True, 'is_used': True, 'name': '9D'},
+                    {'is_reservated': False, 'is_used': True, 'name': '10A'},
+                    {'is_reservated': True, 'is_used': False, 'name': '10B'},
+                    {'is_reservated': True, 'is_used': True, 'name': '10C'},
+                    {'is_reservated': False, 'is_used': False, 'name': '10D'},
+                    {'is_reservated': False, 'is_used': False, 'name': '11A'},
+                    {'is_reservated': False, 'is_used': False, 'name': '11B'},
+                    {'is_reservated': True, 'is_used': True, 'name': '11C'},
+                    {'is_reservated': True, 'is_used': False, 'name': '11D'},
+                    {'is_reservated': True, 'is_used': True, 'name': '12A'},
+                    {'is_reservated': True, 'is_used': False, 'name': '12B'},
+                    {'is_reservated': False, 'is_used': False, 'name': '12C'},
+                    {'is_reservated': False, 'is_used': True, 'name': '12D'},
+                    {'is_reservated': True, 'is_used': True, 'name': '13A'},
+                    {'is_reservated': False, 'is_used': False, 'name': '13B'},
+                    {'is_reservated': False, 'is_used': False, 'name': '13C'},
+                    {'is_reservated': True, 'is_used': False, 'name': '13D'},
+                    {'is_reservated': False, 'is_used': True, 'name': '14A'},
+                    {'is_reservated': True, 'is_used': False, 'name': '14B'},
+                    {'is_reservated': False, 'is_used': False, 'name': '14C'},
+                    {'is_reservated': False, 'is_used': True, 'name': '14D'},
+                    {'is_reservated': False, 'is_used': True, 'name': '15A'},
+                    {'is_reservated': True, 'is_used': True, 'name': '15B'},
+                    {'is_reservated': True, 'is_used': True, 'name': '15C'},
+                    {'is_reservated': False, 'is_used': True, 'name': '15D'}
+                ],
+            }
+            // 이곳에 더 많은 객실이 들어갈 수 있겠죠?
+        ],
+}

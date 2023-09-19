@@ -1,0 +1,10 @@
+"filename", "language", "Python", "Markdown", "YAML", "comment", "blank", "total"
+"/Users/hyun/ticket/README.md", "Markdown", 0, 12, 0, 0, 6, 18
+"/Users/hyun/ticket/app.py", "Python", 26, 0, 0, 0, 10, 36
+"/Users/hyun/ticket/src/dummy_data/dummy_train.py", "Python", 37, 0, 0, 0, 8, 45
+"/Users/hyun/ticket/src/models/car.py", "Python", 8, 0, 0, 0, 6, 14
+"/Users/hyun/ticket/src/models/chair.py", "Python", 7, 0, 0, 0, 4, 11
+"/Users/hyun/ticket/src/models/train.py", "Python", 13, 0, 0, 0, 7, 20
+"/Users/hyun/ticket/test.py", "Python", 6, 0, 0, 0, 4, 10
+"/Users/hyun/ticket/tests/dummy_data.yaml", "YAML", 0, 0, 185, 0, 1, 186
+"Total", "-", 97, 12, 185, 0, 46, 340

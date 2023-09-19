@@ -1,0 +1,5 @@
+"filename", "language", "Python", "Markdown", "YAML", "comment", "blank", "total"
+"/Users/hyun/ticket/README.md", "Markdown", 0, 5, 0, 0, 3, 8
+"/Users/hyun/ticket/app.py", "Python", 13, 0, 0, 0, 2, 15
+"/Users/hyun/ticket/tests/dummy_data.yaml", "YAML", 0, 0, 185, 0, 1, 186
+"Total", "-", 13, 5, 185, 0, 6, 209
