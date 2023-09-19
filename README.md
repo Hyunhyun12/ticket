@@ -5,11 +5,16 @@
 
 # 구조
 .
-├── src
-│   └── models
-│       ├── car.py
-│       ├── chair.py
-│       └── train.py
-├── test
 ├── README.md
-└── app.py
+├── __pycache__
+│   └── app.cpython-311.pyc
+├── app.py
+├── directory-structure.md
+├── src
+│   └── models
+│       ├── car.py
+│       ├── chair.py
+│       └── train.py
+└── test
+
+5 directories, 7 files
