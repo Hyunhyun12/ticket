@@ -1,0 +1,19 @@
+.
+├── src
+│   ├── dummy_data
+│   │   ├── __pycache__
+│   │   └── dummy_train.py
+│   └── models
+│       ├── __pycache__
+│       ├── car.py
+│       ├── chair.py
+│       └── train.py
+├── tests
+│   ├── dummy_data.txt
+│   └── dummy_data.yaml
+├── README.md
+├── app.py
+├── test.py
+└── tree.txt
+
+7 directories, 10 files
