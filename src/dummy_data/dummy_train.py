@@ -22,23 +22,23 @@ class DummyTrain:
         chairs = self.get_random_chair()
         return [
             Car(
-                name=9,
+                number=9,
                 chairs=chairs,
             )
         ]
 
     def get_random_chair(self) -> List[Chair]:
-        chair_number_generator = self.chair_number_generator()
+        chair_name_generator = self.chair_name_generator()
         return [
             Chair(
-                number=chair_number,
+                name=chair_name,
                 is_reservated=random.choice((True, False)),
                 is_used=random.choice((True, False)),
             )
-            for chair_number in chair_number_generator
+            for chair_name in chair_name_generator
         ]
 
-    def chair_number_generator(self) -> Generator[None, None, str]:
+    def chair_name_generator(self) -> Generator[None, None, str]:
         for number in range(1, 16):
             for alphabet in ["A", "B", "C", "D"]:
                 yield f"{number}{alphabet}"

@@ -6,8 +6,8 @@ from src.models.chair import Chair
 
 
 class Car(BaseModel):
-    name: int
+    number: int
     chairs: List[Chair]
 
     def __repr__(self) -> str:
-        return f"\nCar\n  name={self.name}\n  chairs={self.chairs}\n"
+        return f"\nCar\n  number={self.number}\n  chairs={self.chairs}\n"
