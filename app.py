@@ -4,11 +4,14 @@ import yaml
 from fastapi import FastAPI
 from fastapi.encoders import jsonable_encoder
 from fastapi.middleware.cors import CORSMiddleware
+from prometheus_fastapi_instrumentator import Instrumentator
 
 from src.dummy_data.dummy_train import DummyTrain
 from src.models.train import Train
 
 app = FastAPI()
+
+Instrumentator().instrument(app).expose(app)
 
 origins = ["*"]
 
