@@ -12,8 +12,15 @@ KTX 037 열차의 9호차, 의자는 1A부터 15D까지
 
 ## URL
 
+### /
+https://ticketcheckeruos.azurewebsites.net/
+
 ### /dummy_data/fixed
 (개발용) 고정된 더미 데이터를 출력
 
+https://ticketcheckeruos.azurewebsites.net/dummy_data/fixed
+
 ### /dummy_data/random
 (검정용) 무작위의 더미 데이터를 출력
+
+https://ticketcheckeruos.azurewebsites.net/dummy_data/random
