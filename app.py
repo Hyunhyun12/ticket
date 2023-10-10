@@ -8,6 +8,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from prometheus_fastapi_instrumentator import Instrumentator
 
 from config import sentry_dsn
+from src.dummy_data.dummy_chair import DummyChair
 from src.dummy_data.dummy_train import DummyTrain
 from src.models.train import Train
 
@@ -62,6 +63,14 @@ def get_dummy_data_fixed() -> str:
     dummy_train = jsonable_encoder(dummy_train)
     dummy_train = json.dumps(dummy_train)
     return dummy_train
+
+
+@app.get("/dummy_chair/random")
+def get_dummy_seat_random() -> str:
+    dummy_chair = DummyChair()
+    dummy_chair = jsonable_encoder(dummy_chair)
+    dummy_chair = json.dumps(dummy_chair)
+    return dummy_chair
 
 
 @app.get("/sample_exception")

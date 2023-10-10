@@ -2,8 +2,8 @@ import json
 
 from fastapi.encoders import jsonable_encoder
 
-from src.dummy_data.dummy_train import DummyTrain
+from src.dummy_data.dummy_chair import DummyChair
 
-dummy_train = DummyTrain().dummy_train
-dummy_train = jsonable_encoder(dummy_train)
-print(json.dumps(dummy_train))
+dummy_chair = DummyChair()
+dummy_chair = jsonable_encoder(dummy_chair)
+print(json.dumps(dummy_chair))
