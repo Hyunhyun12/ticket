@@ -47,30 +47,30 @@ def read_root() -> None:
     return {"Hello": "World"}
 
 
-@app.get("/dummy_data/random")
-def get_dummy_data_random() -> str:
+@app.get("/dummy_train/random")
+def get_dummy_train_random() -> str:
     dummy_train = DummyTrain()
     dummy_train = jsonable_encoder(dummy_train)
     dummy_train = json.dumps(dummy_train["random"])
-    return dummy_train
+    return dummy_train.replace("\\", "").replace('\"', "")
 
 
-@app.get("/dummy_data/fixed")
-def get_dummy_data_fixed() -> str:
+@app.get("/dummy_train/fixed")
+def get_dummy_train_fixed() -> str:
     with open("./tests/dummy_data.yaml") as file:
         dummy_train_dict = yaml.load(file, Loader=yaml.FullLoader)
     dummy_train = Train(**dummy_train_dict)
     dummy_train = jsonable_encoder(dummy_train)
     dummy_train = json.dumps(dummy_train)
-    return dummy_train
+    return dummy_train.replace("\\", "").replace('\"', "")
 
 
 @app.get("/dummy_chair/random")
-def get_dummy_seat_random() -> str:
+def get_dummy_chair_random() -> str:
     dummy_chair = DummyChair()
     dummy_chair = jsonable_encoder(dummy_chair)
     dummy_chair = json.dumps(dummy_chair)
-    return dummy_chair
+    return dummy_chair.replace("\\", "").replace('\"', "")
 
 
 @app.get("/sample_exception")

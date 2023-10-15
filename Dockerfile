@@ -8,4 +8,6 @@ RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
 
 COPY . /code
 
-CMD ["gunicorn", "app:app", "-k", "uvicorn.workers.UvicornWorker"]
+EXPOSE 8000
+
+CMD ["gunicorn", "app:app", "-k", "uvicorn.workers.UvicornWorker", "-b", "0.0.0.0:8000"]
