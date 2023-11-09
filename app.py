@@ -52,7 +52,7 @@ def get_dummy_train_random() -> str:
     dummy_train = DummyTrain()
     dummy_train = jsonable_encoder(dummy_train)
     dummy_train = json.dumps(dummy_train["random"])
-    return dummy_train.replace("\\", "").replace('\"', "")
+    return dummy_train
 
 
 @app.get("/dummy_train/fixed")
@@ -62,16 +62,22 @@ def get_dummy_train_fixed() -> str:
     dummy_train = Train(**dummy_train_dict)
     dummy_train = jsonable_encoder(dummy_train)
     dummy_train = json.dumps(dummy_train)
-    return dummy_train.replace("\\", "").replace('\"', "")
+    return dummy_train
 
 
-@app.get("/dummy_chair/random")
+@app.get("/dummy_chair/one/random")
 def get_dummy_chair_random() -> str:
-    dummy_chair = DummyChair()
+    dummy_chair = DummyChair().one
+    dummy_chair = jsonable_encoder(dummy_chair)
+    dummy_chair = json.dumps(dummy_chair[0])
+    return dummy_chair
+
+@app.get("/dummy_chair/two/random")
+def get_dummy_chairs_random() -> str:
+    dummy_chair = DummyChair().two
     dummy_chair = jsonable_encoder(dummy_chair)
     dummy_chair = json.dumps(dummy_chair)
-    return dummy_chair.replace("\\", "").replace('\"', "")
-
+    return dummy_chair
 
 @app.get("/sample_exception")
 def sample_exception() -> None:
